@@ -69,11 +69,11 @@ public class EstudanteController {
         return estudanteServices.ListaEstudantePeloEndereco(endereco);
     }
 
-    @GetMapping("/estudantes/meiopagamento")
-    @ResponseStatus(HttpStatus.OK)
-    public List<Estudante> ListaEstudantePeloMeioPagamento(@RequestParam Long meioPagamento) {
-        return estudanteServices.ListaEstudantePeloMeioPagamento(meioPagamento);
-    }
+//    @GetMapping("/estudantes/meiopagamento")
+//    @ResponseStatus(HttpStatus.OK)
+//    public List<Estudante> ListaEstudantePeloMeioPagamento(@RequestParam Long meioPagamento) {
+//        return estudanteServices.ListaEstudantePeloMeioPagamento(meioPagamento);
+//    }
 
     @GetMapping("/estudantes/nome")
     @ResponseStatus(HttpStatus.OK)

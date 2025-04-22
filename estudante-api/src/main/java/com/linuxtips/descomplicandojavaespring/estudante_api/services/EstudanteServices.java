@@ -54,7 +54,6 @@ public class EstudanteServices {
                     estudanteToUpdate.setCurso(estudante.getCurso());
                     estudanteToUpdate.setEndereco(estudante.getEndereco());
                     estudanteToUpdate.setNome(estudante.getNome());
-                    estudanteToUpdate.setMeioPagamento(estudante.getMeioPagamento());
 
                     // Salva a atualização no banco de dados
                     Estudante updated = estudanteRepository.save(estudanteToUpdate);
@@ -92,10 +91,10 @@ public class EstudanteServices {
         return estudanteRepository.ListaEstudantePeloEndereco(endereco);
     }
 
-    public List<Estudante> ListaEstudantePeloMeioPagamento(Long meioPagamento) {
-
-        return estudanteRepository.ListaEstudantePeloMeioPagamento(meioPagamento);
-    }
+//    public List<Estudante> ListaEstudantePeloMeioPagamento(Long meioPagamento) {
+//
+//        return estudanteRepository.ListaEstudantePeloMeioPagamento(meioPagamento);
+//    }
 
     public List<Estudante> listarEstudantePeloComecoDoNome(String comecoNome) {
         return estudanteRepository.findByNomeStartingWith(comecoNome);

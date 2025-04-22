@@ -32,9 +32,9 @@ public interface EstudanteRepository extends JpaRepository<Estudante,Long> {
         //criar um novo metodo que vai retornar um optional de estudante
     List<Estudante> ListaEstudantePeloEndereco (String endereco);
 
-    @Query("Select a FROM Estudante a WHERE a.meioPagamento = :meioPagamento")
-        //criar um novo metodo que vai retornar um optional de estudante
-    List<Estudante> ListaEstudantePeloMeioPagamento (Long meioPagamento);
+//    @Query("Select a FROM Estudante a WHERE a.meioPagamento = :meioPagamento")
+//        //criar um novo metodo que vai retornar um optional de estudante
+//    List<Estudante> ListaEstudantePeloMeioPagamento (Long meioPagamento);
 
 
     @Query
