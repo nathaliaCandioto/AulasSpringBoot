@@ -1,4 +1,4 @@
-package com.linuxtips.descomplicandojavaespring.estudante_api.model;
+package com.linuxtips.descomplicandojavaespring.estudante_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
