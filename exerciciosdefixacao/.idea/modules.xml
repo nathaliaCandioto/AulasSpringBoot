@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AulasSpringBoot.iml" filepath="$PROJECT_DIR$/.idea/AulasSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exerciciosdefixacao.iml" filepath="$PROJECT_DIR$/exerciciosdefixacao.iml" />
     </modules>
   </component>
 </project>
